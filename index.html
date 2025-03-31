@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+            <meta charset="UTF-8" />
+            <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+            <meta name="description" content="Projeto Portifolio" />
+            <meta name="author" content="Evelyn Santos" />
+            <meta name="keywords" content="HTML, CSS, JavaScript" />
+            <link rel="icon" type="image/svg" href="./assets/img/user_02.svg" />
+
+            <link rel="stylesheet" href="./assets/css/style.css"> <!--Link folha de estilo da página - CSS-->
+
+            <title>Meu Perfil</title>
+    </head>
+
+    <body>
+            <!-- Cabeçalho da Página (header) -->
+		<header>
+
+			<!-- Div Conteudo do Cabeçalho -->
+			<div id="header_content" class="flex">
+
+				<!-- Titulo do Cabeçalho -->
+				<div id="titulo">
+
+					<!-- Seu nome -->
+					<h1>Evelyn Santos</h1>
+
+				</div>
+
+				<!-- Conteudo do Menu da Página (header) -->
+				<div id="menu">
+
+					<!-- Menu da Página -->
+					<nav>
+
+						<!-- Marcadores não ordenados + links -->
+						<ul id="menu">
+							<li>
+								<a href="index.html">Home</a>
+							</li>
+							<li>
+								<a href="contato.html">Contato</a>
+							</li>
+						</ul>
+
+					</nav>
+
+				</div>
+
+			</div>
+
+		</header>
+            <!-- Seção Principal da Página (main) -->
+            <main>
+                    <!--Seção Sobre Você-->
+                    <section id="about" class="flex_start">
+
+                        <!--Titulo da Seção-->
+                        <h2> Sobre a Evelyn Santos </h2>
+
+                        <!--Conteudo da Seção-->
+                        <div id="conteudo" class="flex">
+
+                            <!--Imagem do criador do Conteúdo-->
+                            <img
+                                src="./assets/img/evelyn.jpeg"
+                                alt="Foto do criador desse conteudo"
+                                width="250" 
+                                class="img_profile"/>                                
+
+                            <!--Texto sobre o criador do conteúdo-->
+                            <article id="sobre_texto">
+                                <p> 
+                                    Olá, meu nome é Evelyn, atualmente estou cursandoo bootcamp na ONG Generation Brasil - Java Full Stack,
+                                    nessa experiencia, estou desenvolvendo minhas habilidades com a comunicação, aprimorando meu raciocínio logico
+                                    e desenvolvimento de algoritmos, também estou cursando 2º semestre de Analise e Desenvolvimento de Sistemas.
+                                    Meu proposito como desenvolvedora é ajudar a todos, criando inovações que melhorem a qualidade de vida das pessoas.
+                                </p>
+                            </article>
+                        </div>
+                    </section>
+
+                    <!--Seçao contendo um vídeo de sua preferência-->
+                    <section id="video" class="flex_start">
+                        
+                        <!--Titulo da Seção-->
+                        <h2> Meu video Favorito:</h2>
+
+                        <!--Video da Seção-->
+                        <div id="youtube" class="flex">
+
+                        <iframe
+                            width="700" 
+                            height="315" 
+                            src="https://www.youtube.com/embed/qIWH-ArjdOM?si=qc8evXwNxQapyAF-" 
+                            title="YouTube video player" frameborder="0" allow="accelerometer; autoplay;
+                            clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                        </iframe>
+
+                        </div>
+
+                    </section>
+            </main>
+
+            <!-- Rodapé da Página (footer) -->
+		<footer class="flex">
+
+			<!-- Seção de Contato - Redes Sociais-->
+			<section id="redes_sociais">
+
+                <a href="">
+                    <img src="assets/img/linkedin.svg" alt="LinkedIn" class="social_icon"/>
+                </a>
+                <a href="">
+                    <img src="assets/img/github.svg" alt="Github" alt="Github" class="social_icon"/>
+                </a>
+                <a href="">
+                    <img src="assets/img/instagram.svg" alt="Instagram" class="social_icon"/>
+                </a>
+
+			</section>
+
+			<h3>
+                Feito com 💗 por Evelyn Santos - 2025
+            </h3>
+
+		</footer>
+    </body>
+</html>
