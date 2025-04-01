@@ -10,16 +10,16 @@
 }
 
 :root {
-    --blue-200: #84e3c8;
+    --green-200: #adfda2;
     --pink-500: #ff7480; 
     --blue-500: #0aa076;
 
     --purple-800: #3f004d; 
 
-    --pink-200: #ffa6c1;
+    --pink-200: #e9ccfc;
     --purple-400: #c912f2;
 
-    --blue-800: #094e86;
+    --blue-800: #f20089;
 }
 
 html {
@@ -83,7 +83,7 @@ p{
     width: 100%; 
     justify-content: space-between;
     padding: 24px;
-    background-color: var(--blue-200);
+    background-color: var(--green-200);
     border-bottom: 1px solid var(--blue-500);
 }
 
@@ -137,7 +137,7 @@ footer{
     margin: 0;
     padding: 2rem;
     color: var(--blue-800);
-    background-color: var(--blue-200);
+    background-color: var(--green-200);
     font-weight: bold;
     text-align: center;
 }

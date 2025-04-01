@@ -51,26 +51,43 @@
             <main>
                 <div id="contact" class="flex">
                     <!-- Seção Formulário de Contato-->
-                    <form action="#" method="submit">
-                        <form action="#" method="submit" id="Formulário">
-                            <label for="name"> Nome: </label> 
-                            <input id="name" type="text" name="name" placeholder="Digite seu nome">
-                            <span id="txtNome>"></span>
-
-                            <label for="email"> E-mail: </label> 
-                            <input id="email" type="text" name="email" placeholder="Digite seu email">
-                            <span id="txtEmail>"></span>
-
-                            <label for="subject"> Assunto: </label> 
-                            <input id="subject" type="text" name="subject" placeholder="Digite o titulo da menssage">
-                            <span id="txtSubject>"></span>
-
-                            <label for="message">Mensagem: </label>
-                            <textarea id="mensagem" name="message" placeholder="Digite sua message"></textarea>
-
-                            <button type="submit">Enviar</button>
-
-                        </form>
+                    <form action="#" method="submit" id="formulario">
+                        <label for="name">Nome: </label>
+                        <input
+                            id="name"
+                            type="text"
+                            name="name"
+                            placeholder="Digite seu nome"
+                        />
+                        <span id="txtNome"></span>
+    
+                        <label for="email">Email: </label>
+                        <input
+                            id="email"
+                            type="text"
+                            name="email"
+                            placeholder="Digite seu email"
+                        />
+                        <span id="txtEmail"></span>
+    
+                        <label for="subject">Assunto: </label>
+                        <input
+                            id="subject"
+                            type="text"
+                            name="subject"
+                            placeholder="Digite o título da mensagem"
+                        />
+                        <span id="txtSubject"></span>
+    
+                        <label for="message">Mensagem: </label>
+                        <textarea
+                            id="message"
+                            name="message"
+                            placeholder="Digite sua mensagem"
+                        ></textarea>
+    
+                        <button type="submit">Enviar</button>
+                    </form>
 
                         <!--Seção do Google Maps-->
                         <section id="mapa" class="flex_start">
@@ -117,5 +134,9 @@
                 </h3>
 
         </footer>
+
+            <!-- Script JavaScript-->
+            <script src="./assets/js/script.js"></script>
+
     </body>
 </html>
